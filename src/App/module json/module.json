@@ -1,0 +1,177 @@
+{
+    "products": [
+        {
+
+
+                "Store": "LeEco",
+
+                "Price":"900",
+                "Sort_by_price":"lowest",
+               "Shipping":"slowest",
+               "Sort_by_time_of_adding":"oldest", 
+               "author" : "LeEco Le Pro 3 (X727) 4/64GB Gold",
+                "code": "kxc 1225565",
+                "image": "./src/assets/1.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+
+                },
+                {
+                "Store": "Samsung",
+
+                "Price":"200",
+                "Sort_by_price":"lowest", 
+               "Shipping":"slowest",
+               "Sort_by_time_of_adding":"oldest", 
+               "author" :"Samsung Galaxy J5 J500H/DS Black + чехол + защитное стекло",
+                "code": "kxc 9025565",
+                "image": "./src/assets/2.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                },
+                {
+                "Store": "Samsung",
+
+                "Price":"300",
+                "Sort_by_price":"lowest", 
+               "Shipping":"slowest",
+               "Sort_by_time_of_adding":"oldest", 
+               "author" : "Samsung Galaxy J7 J700H/DS Black + чехол + защитное стекло",
+                "code": "kxc 4525565",
+                "image": "./src/assets/3.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                },
+                {
+                "Store":"Lenovo",
+
+                "Price":"600",
+                "Sort_by_price":"highest",
+               "Shipping":"fastest",
+               "Sort_by_time_of_adding":"latest", 
+               "author" : "Lenovo A1000 White",
+                "code": "kxc 543225565",
+                "image": "./src/assets/4.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                },
+                {
+                "Store":"Prestigio",
+                "Price":"400",
+
+                "Sort_by_price":"lowest",
+               "Shipping":"slowest",
+               "Sort_by_time_of_adding":"oldest", 
+               "author" : "Prestigio MultiPhone Wize R3 PSP3423 Duo Black",
+                "code": "kxc 00025565",
+                "image": "./src/assets/5.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                },
+                {
+                "Store": "Samsung",
+
+                "Price":"700",
+                "Sort_by_price":"highest", 
+               "Shipping":"fastest",
+               "Sort_by_time_of_adding":"oldest", 
+               "author" : "Samsung Galaxy J3 2016 J320H/DS Gold + чехол ",
+                "code": "kxc 0325565",
+                "image": "./src/assets/6.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                },
+                {
+                "Store": "Samsung",
+
+                "Price":"900",
+                "Sort_by_price":"highest", 
+               "Shipping":"fastest",
+               "Sort_by_time_of_adding":"latest", 
+               "author" : "Samsung Galaxy J3 2016 J320H/DS Black + чехол",
+                "code": "kxc 9025565",
+                "image": "./src/assets/7.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                },
+                {
+                "Store": "Samsung",
+
+                "Price":"1000",
+                "Sort_by_price":"highest",
+               "Shipping":"fastest",
+               "Sort_by_time_of_adding":"latest", 
+               "author" : "Samsung Galaxy J3 2016 J320H/DS White + чехол",
+                "code": "kxc 093325565",
+                "image": "./src/assets/8.jpg",
+                "aboutits":" Unlocked for Worldwide use. Please ensure local area network is compatible. click here for Network Frequency of your country. Please check with your carrier/provider before purchasing this item.LeEco Le Pro3 Elite 5.5 inch Android 6.0 4G Phablet Qualcomm Snapdragon 820 Quad Core 4GB RAM 32GB ROM 8MP + 16MP Cameras Fingerprint Scanner Accelerometer",
+
+                "Display":" Display: 5.5 inch 1920 x 1080 FHD screen ",
+                "CPU" : "CPU: Qualcomm Snapdragon 820 ( MSM8996 ) Quad Core",
+
+                "System":"  System: Android 6.0",
+
+                "Camera":" Camera: 16.0MP back camera + 8.0MP front camera ",
+
+                "SIM":" SIM Card: dual SIM dual standby ( dual Nano SIM )"
+                }
+    ]
+
+    
+}

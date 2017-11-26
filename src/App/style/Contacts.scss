@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto';
+    
+}
+    .contacts_manu{
+        display: flex;
+        justify-content: space-between;
+        .map_contacts{
+            width: 60%;
+            height:400px;
+    }
+    .contacts_namber{
+        width: 40%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        h5{
+            padding-left: 2rem;
+            font-size: 1.7rem;
+            color:grey;
+            text-transform: uppercase;
+            font-weight: 500;
+            color:grey;
+        }
+        a,p{
+            color:grey;
+            font-size: 1.8rem;
+            font-weight: 400;
+            padding-left: 2rem;
+            color:grey;
+        }
+        .span_Location{
+            font-weight: 600;
+            color:#01579b;
+        }
+    }
+
+}
+@media screen and (max-width: 900px){
+    .contacts_manu{
+    .contacts_namber{
+        a,p{
+        
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+}
+}
+@media screen and (max-width: 800px){
+    .contacts_manu{
+    .contacts_namber{
+        width: 46%;
+        height: 300px;
+        a,p{
+          
+                font-size: 1.4rem;
+                font-weight: 400;
+                
+            }
+    }
+    .map_contacts{
+        width: 54%;
+        height: 300px;
+    }
+}
+}
+@media screen and (max-width: 650px){
+    .contacts_manu{
+        .contacts_namber{
+            a,p{
+                    font-size: 1.23rem;
+                    font-weight: 400;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacts_manu{
+        flex-direction: column-reverse;
+
+        .contacts_namber{
+            width: 100%;
+            height: 270px;
+            h5{
+                padding: 0;
+                font-size: 1.5rem;
+            }
+            a,p{
+                
+                      font-size: 1.4rem;
+                      font-weight: 500;
+                      padding-left: 0;
+                  }
+        }
+        .map_contacts{
+            width: 100%;
+            height: 270px;
+        }
+    }  
+}

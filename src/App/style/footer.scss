@@ -1,0 +1,129 @@
+
+#body{
+    background-color: rgba(200, 250, 199, 0.514)
+}
+#foter_nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#01579b;
+}
+#foter_nav a:hover{
+    color:#4db6ac;
+}
+
+
+
+.footer_down{
+height: 50px;
+position: relative;
+bottom:-50px;
+background-color: #01579b;
+}
+#nav-mobile{
+    width: 12rem;
+}
+
+#foter_nav img{
+    margin-top:5px;
+    margin-left: 15px;
+}
+.footer_down p{
+padding-left: 30px;
+font-size: 1rem;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+text-shadow: 1px 0 4px white;
+}
+.App_store{
+    display: flex;
+
+#phone_menu{
+    display: flex;
+ justify-content: flex-end;
+    padding-top: 10px;
+    .phone_image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+    .text_menu{
+        span#prise{
+            color:red;
+            font-size:14px;
+        
+    }
+        .main_features{
+            padding-left: 30px;
+            font-size: 17px;
+            font-weight: 400;
+            color:grey;
+            
+          
+        }
+        .href_next{
+            color: #01579b;
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .aboutits{
+            color:grey;
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .href_next:hover{
+color:#4db6ac;
+
+        }
+    }
+}
+.thumb{
+    position: relative;
+    left: 100px;
+}
+.search_box{
+
+    .store{
+        color:#01579b;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .input_checkbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .input_range{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        .store_span{
+           color:grey;
+            font-size: 16px;
+            font-weight: 400;
+            span{
+                color:red;
+
+            }
+        }
+    }
+    .submit{
+        margin-top: 45px;
+        text-align: right;
+    }
+}
+
+    span.thumb{display: none;}
+}
+
+@media screen and (max-width: 600px){
+    #foter_nav li a{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+   
+}

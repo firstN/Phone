@@ -1,0 +1,28 @@
+.Product_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Product_list_paragraf{
+    display: block;
+    text-align: center;
+    p{
+        color: grey;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+.imeges_list{
+    border-radius: 50%;
+
+}
+.active{
+    border-radius: 5%;
+}
+.materialbox-caption{
+    padding-top: 5px;
+}
+.product_menu h4{
+color: grey;
+padding-left: 2rem;
+}
