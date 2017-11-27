@@ -1,6 +1,6 @@
 // require('../style/about_us.scss');
 const products = require('../module json/module.json').products;
-
+const connect = ReactRedux.connect;
 import {Row,Section,Icon,Chip,Card,Carousel,CardPanel ,CardTitle,Col,MediaBox,Input,Label,PaginationButton,Parallax ,SideNav,SideNavItem,Button} from 'react-materialize'
 let all_mous_don= require('react-materialize');
 let a =products[0].image;
@@ -27,6 +27,7 @@ class About_as extends React.Component{
           this.store_by = require('./function phone/store_by');
           this.Sort_by_time_of_adding = require('./function phone/Sort_by_time_of_adding');
           this.change_box = require('./function phone/change_box');
+          this.Sort_by_price_sort = require('./function phone/Sort_by_price_sort');
           
         }
         chenge_all(e){
@@ -72,8 +73,8 @@ class About_as extends React.Component{
                 const array_was = [];
              
                 let max_max = this.return_array(new_array,array)
+
                 for(let i = 0; i < max_max.length; i++){
-                    
                    if(+this.state.min <= +max_max[i].Price && +this.state.max >= +max_max[i].Price ){
                     array_was.push(max_max[i])
                     
@@ -84,30 +85,15 @@ class About_as extends React.Component{
             
 
             if(this.state.Sort_by_price){
-                counter_all.push(1)
+
+               
                 let counter = 0;
-                let Sort_by_price = this.return_array(new_array,array)
-                
-                
-                for(let i = 0; i < Sort_by_price.length-1; i++){
-            
-                    if(+Sort_by_price[i].Price > +Sort_by_price[i+1].Price ){
-                        let date = Sort_by_price[i];
-                        Sort_by_price[i] = Sort_by_price[i+1];
-                        Sort_by_price[i+1] = date;
-                        
-                        counter++
-                    }
-                    if(i == Sort_by_price.length-2){
-                    if(counter!==0){
-                        i = -1;
-                        counter = 0;
-                    }
+                let Sort_by_price= [...new_array];
+                if(counter_all.length ===0){
+                 Sort_by_price = this.return_array(new_array,array)
                 }
-                }
-                if(this.state.Sort_by_price === 'highest'){
-                    Sort_by_price.reverse()
-                }
+                counter_all.push(1)
+                new_array = [...this.Sort_by_price_sort(Sort_by_price,counter,'highest')]
             }
 
             if(this.state.Sort_by_time_of_adding){
@@ -193,20 +179,21 @@ Sort_by_price(e){
     }
 }
 click(e){
-   
+   this.props.dispatch({type:'ADD_PHONE',phone:'e.target.id'})
 }
        
         render(){
+            console.log(this.props)
         let self = this;
         let array = this.state.array.map(function(v,i){
             return(
-                <Card  id={v+i} l={12} m={12} s={12} id="phone_menu" className='phone_menu'>
+                <Card  key={v+i} l={12} m={12} s={12} id="phone_menu" className='phone_menu'>
                     <Col l={3} m={3} s={3} className='phone_image'>        
                         <MediaBox className='phone' src={v.image }caption={v.code} />
                         <Chip>{v.code}</Chip>
                     </Col>
                     <Col  className = "text_menu"  l={9} m={9} s={9}>
-                        <a id = {i} className = "href_next" onClick= {self.click.bind(this) } href='/#/Basket'>{v.author}</a>
+                        <a key={i} id = {i} className = "href_next" onClick={self.props.addNewPhone.bind(this)} href='/#/Basket'>{v.author}</a>
                         <p className = "main_features" >Main Features</p>
                         <Chip>
                             <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emojione_1F4B8.svg/240px-Emojione_1F4B8.svg.png" alt='Contact Person' />
@@ -275,12 +262,26 @@ click(e){
                         </Col>
                         <Col l={9} m={9} s={12}>
                             <h4>{this.state.visible}</h4>
-                            {array} 
+                            {array}
+                         
                         </Col>
                                 
                         </Col>
+                        
                 </Row>
                 )
         }
     }
-    module.exports = About_as;
+
+    const mapStateToProps = (state) => {
+        return {
+            phone : state
+        }
+    }
+
+    const mapDispatchToProps = (dispatch) => {
+        return {
+            addNewPhone: (e) => dispatch({type: "ADD_PHONE",phone:products[e.target.id],id:e.target.id})
+        }
+    }
+    module.exports = connect(mapStateToProps,mapDispatchToProps) (About_as);

@@ -12,6 +12,7 @@ class Nav_bar extends React.Component{
                             <NavItem  href='/#/'>First fire</NavItem>
                             <NavItem  href='/#/Basket'>Basket</NavItem>
                         </Navbar>
+                        
                     </div>
                 )
         }
